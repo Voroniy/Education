@@ -1,7 +1,8 @@
 * {
   box-sizing: border-box;
 }
-.container{
+
+.container {
   margin: 0 auto;
   border: 4px solid rgb(7, 156, 242);
   width: 1000px;
@@ -9,20 +10,23 @@
   text-align: center;
   margin-top: 200px;
 }
-.input{
+
+.input {
   width: 300px;
   height: 50px;
 }
-.button{
+
+.button {
   width: 50px;
   height: 50px;
 }
-.inner{
+
+.inner {
   margin-top: 200px;
 }
-.container-result::before{
-  content: "«";
+
+.result-quots {
+  display: flex;
+  justify-content: center;
 }
-.container-result::after {
-  content: "»";
-}
+
